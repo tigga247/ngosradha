@@ -1,0 +1,23 @@
+{
+  "extends": ["development"],
+  "hints": {
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": ["iframe[loading]", "meta[name=theme-color]"]
+      }
+    ],
+    "axe/keyboard": [
+      "default",
+      {
+        "nested-interactive": "off"
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ]
+  }
+}

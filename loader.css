@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*{
+    margin: 0;
+    background: none;
+}
+    
+
+.logo{
+    font-family: "poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: oblique;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: flex;
+    position: absolute;
+    margin-left: 10px;
+    transform: translate(-50%, -50%);
+}
+.logo span{
+    color: green;
+    text-transform: uppercase;
+    animation: animate 4s ease forwards infinite;
+}
+.logo span:nth-child(1){
+    animation-delay: 0.1s;
+}
+.logo span:nth-child(2){
+    animation-delay: 0.2s;
+}
+.logo span:nth-child(3){
+    animation-delay: 0.3s;
+}
+.logo span:nth-child(4){
+    animation-delay: 0.4s;
+}
+.logo span:nth-child(5){
+    animation-delay: 0.5s;
+}
+.logo span:nth-child(6){
+    animation-delay: 0.6s;
+}
+.logo span:nth-child(7){
+    animation-delay: 0.7s;
+}
+@keyframes animate{
+    0%, 100%{
+        text-shadow: 0 0 0 #000;
+    }
+    50% {
+        text-shadow: 0 35px 25px #000;
+            }
+}

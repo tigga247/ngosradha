@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fav icon link -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./image/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./images/site.webmanifest" />
+    <link rel="mask-icon" href="./images/safari-pinned-tab.svg" color="#blue" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- cdn font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font awsome icon cdn -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="style.css" />
+    <title>SHRADHA</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <span>S</span><span>h</span><span>r</span><span>a</span><span>d</span
+        ><span>h</span><span>a</span>
+      </div>
+
+      <!-- <a href="#" class="logo"><span>SHRADHA</span></a> -->
+
+      <div class="hamburger_on"></div>
+      <ul class="nav_links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="causes.html">CAUSES</a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+        <li><a class="active" href="contact.html">CONTACT</a></li>
+      </ul>
+    </header>
+    <!-- hero -->
+    <section class="contact">
+      <div class="card_contact">
+        <h2>DO NOT HESITATE TO CONTACT US</h2>
+
+        <a href="contact.html">Call US</a>
+        <button id="open-popup">Learn More</button>
+
+        <div id="popup" class="popup">
+          <div class="popup-content">
+            <span class="close">&times;</span>
+            <p>
+              Children with intellectual and developmental disabilities (IDD)
+              are individuals who have difficulties with cognitive and
+              intellectual functioning. These difficulties can impact their
+              daily activities, including learning, communication, and personal
+              care. IDD can be present from birth or may develop later in life
+              as a result of an injury or illness. <br />Some common
+              difficulties associated with IDD <br />
+              <br />1...Difficulty with language and communication: Children
+              with IDD may have difficulty with speaking, understanding spoken
+              language, and using gestures or signs to communicate
+              <br />2...Delays in motor development: Children with IDD may have
+              difficulty with gross motor skills (such as walking and running)
+              or fine motor skills (such as writing or using utensils).
+              <br />3...Learning disabilities: Children with IDD may have
+              difficulties with learning and retaining new information, and may
+              require specialized educational support. <br />
+              4...Social and emotional challenges: Children with IDD may
+              struggle with socializing and building relationships, and may have
+              behavioral and emotional challenges. <br />5...Adaptive skills:
+              Children with IDD may have difficulty with everyday tasks such as
+              self-care, dressing, and personal hygiene. <br />It's crucial to
+              remember that every kid with IDD has different issues, and both
+              the degree and nature of those challenges can vary substantially.
+              Many kids with IDD may live happy, meaningful lives with the
+              correct care and treatment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ?support section -->
+    <section id="support">
+      <h2>JOIN OUR <span>Cause</span></h2>
+      <p>
+        Help us empower children with intellectual and developmental
+        disabilities. Your support can make a difference in their lives.
+      </p>
+    </section>
+
+    <!-- Contact text section -->
+
+    <section id="contact_container">
+      <div class="getin">
+        <h2>Get in touch</h2>
+        <p>"Support Children with Disabilities"</p>
+        <div class="getin_details">
+          <h3>OUR SHELTER</h3>
+          <div>
+            <i class="fa far fa-home get"></i>
+            <p>
+              Shraddha At: C-317, Sector-16 <br />
+              P.O.-Rourkela-769003 <br />
+              Dist.-Sundargarh, Odisha
+            </p>
+          </div>
+          <h3>OUR NUMBER</h3>
+
+          <div>
+            <i class="fa fas fa-phone-alt get"></i>
+            <p>+91-9438187899</p>
+          </div>
+          <h3>OUR e-mail</h3>
+
+          <div>
+            <i class="fa fal fa-envelope-open-text get"></i>
+            <p>shraddha.rkl@gmail.com</p>
+            <br />
+          </div>
+          <div>
+            <i class="fa fal fa-envelope-open-text get"></i>
+            <p>support@shradha.org</p>
+          </div>
+        </div>
+      </div>
+      <!-- form secton -->
+      <div class="form">
+        <h4>Lets Contact</h4>
+        <p>We look forward to hearing from you.</p>
+        <form onsubmit="sendEmail(); reset(); return false;">
+          <div class="form_row">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="email" id="email" placeholder="Your e-mail" required />
+            <input type="text" id="phone" placeholder="phone no" required />
+          </div>
+ 
+          <div class="form_col">
+            <textarea
+              name=""
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Let we know from you"
+              required
+            ></textarea>
+          </div>
+          <div class="form_col">
+            <button type="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section id="map">
+      <iframe
+        title="myframe"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.323037473534!2d84.84551521444746!3d22.265749849775933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a201b25b69371ef%3A0x94b27b916e8b0894!2sShraddha%20School%20(%20Shadha%20)!5e0!3m2!1sen!2sin!4v1675045056566!5m2!1sen!2sin"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer_col">
+        <h3>Our NGO</h3>
+
+        <img src="./images/fav.jpg" alt="logo img" />
+      </div>
+      <div class="footer_col">
+        <h3>Imp Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="causes.html">causes</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer_col">
+        <h3>Contact Details</h3>
+        <ul>
+          <li>
+            <i class="fa far fa-home get"></i>Shraddha At: C-317, <br />
+            Sector-16 <br />
+            P.O.-Rourkela-769003 <br />
+            Dist.-Sundargarh, <br />
+            Odisha
+          </li>
+          <li><i class="fa fas fa-phone-alt get"></i>+91-9438187899</li>
+          <li>
+            <i class="fa fal fa-envelope-open-text get"></i
+            >shraddha.rkl@gmail.com
+          </li>
+          <li>
+            <i class="fa fal fa-envelope-open-text get"></i>support@shradha.org
+          </li>
+        </ul>
+      </div>
+      <div class="footer_col">
+        <h3>Our Therapy</h3>
+        <ul>
+          <li>Occupational Therapy</li>
+          <li>Speech and language therapy</li>
+          <li>Physical therapy</li>
+          <li>Cognitive behavioral therapy</li>
+        </ul>
+      </div>
+      <div class="footer_col">
+        <h3>Newsletters</h3>
+        <p>Help and Support Our NGO</p>
+        <div class="subscribe">
+          <input type="text" placeholder="Your email address" />
+          <a href="#" class="yellow">SUBSCRIBE</a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright @2023 All rights recieved !Powered By
+          <span>SWPE<br />+91-8917428057</span>
+        </p>
+        <div class="pro_links">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+        </div>
+      </div>
+    </footer>
+
+    <!-- main js fle link -->
+    <script src="script.js"></script>
+    <!--form script  -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail() {
+        Email.send({
+          Host: "smtp.google.com",
+          Username: "tiggasuman247@gmail.com",
+          Password: "sumantigga@1976",
+          To: "tiggasuman247@gmail.com",
+          From: document.getElementById("email").value,
+          Subject: "New contact enquery",
+          Body:
+            "Name: " +
+            document.getElementById("name").value +
+            "<br>Email:" +
+            document.getElementById("email").value +
+            "<br>Phone no:" +
+            document.getElementById("phone").value +
+            "<br>Message:" +
+            document.getElementById("message").value,
+        }).then((message) => alert("message sent sussesfully"));
+      }
+    </script>
+  </body>
+</html>
