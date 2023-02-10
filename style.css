@@ -190,14 +190,14 @@ header .nav_links ul li a:hover {
 .featured h2 span {
   /* font-family: 'Dancing Script', cursive; */
   color: #0b6fd4;
-  font-size: 3rem;
+  font-size: 2.58rem;
   font-style: oblique;
   text-shadow: 2px 2px 2px #000000, -2px -2px 2px #ffffff;
 }
 .card h2 {
   line-height: 1;
   margin-top: 80px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-shadow: 2px 2px 2px #000000, -2px -2px 2px #ffffff;
 }
 .card #btn {
@@ -221,7 +221,7 @@ header .nav_links ul li a:hover {
   transform: scale(1.1);
   transition: 0.3s ease-in-out;
 }
-.card #btn a{
+.card #btn a {
   text-decoration: none;
   color: white;
 }
@@ -551,7 +551,7 @@ header .nav_links ul li a:hover {
   font-style: italic;
   font-weight: oblique;
   color: #196ddc;
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-shadow: 2px 2px 2px #000000, -2px -2px 2px #ffffff;
 }
 .about_hero #btn {
@@ -575,7 +575,7 @@ header .nav_links ul li a:hover {
 
   transition: 0.3s ease-in-out;
 }
-.about_hero #btn a{
+.about_hero #btn a {
   text-decoration: none;
   color: #fff;
 }
@@ -711,7 +711,7 @@ header .nav_links ul li a:hover {
 #causes_hero h2 {
   line-height: 1.2;
   margin-top: 100px;
-  font-size: 3rem;
+  font-size: 2.3rem;
   text-shadow: 2px 2px 2px #000000, -2px -2px 2px #ffffff;
   line-height: 1.2;
   margin-top: 120px;
@@ -737,7 +737,7 @@ header .nav_links ul li a:hover {
   transform: scale(1.1);
   transition: 0.3s ease-in-out;
 }
-.image_text #btn a{
+.image_text #btn a {
   text-decoration: none;
   color: #fff;
 }
@@ -879,10 +879,10 @@ header .nav_links ul li a:hover {
   color: #fff;
 }
 .card_contact #btn:hover {
-  background:#0b6fd4;
+  background: #0b6fd4;
   transition: 0.3s ease-in-out;
 }
-.card_contact #btn a{
+.card_contact #btn a {
   color: #fff;
   text-decoration: none;
 }
@@ -1033,7 +1033,7 @@ header .nav_links ul li a:hover {
 /* Gallery section */
 .hero_img {
   width: 100%;
-  height: 75vh;
+  height: 80vh;
   background-image: url(./images/Special-Needs-Child.jpg);
   background-position: center;
   background-size: cover;
@@ -1046,22 +1046,22 @@ header .nav_links ul li a:hover {
 }
 .gallery_hero h2 {
   line-height: 1.2;
-  margin-top: 50px;
-  font-size: 2rem;
+  margin-top: 70px;
+  font-size: 1.5rem;
   padding: 10px 50px;
   text-transform: uppercase;
   text-shadow: 2px 2px 2px #000000, -2px -2px 2px #ffffff;
 }
 .gallery_hero h2 span {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-style: oblique;
   color: #0b6fd4;
   text-shadow: 2px 2px 2px #000000, -2px -2px 2px #ffffff;
 }
-.gallery_hero #btn{
+.gallery_hero #btn {
   font-size: 1.1rem;
   font-weight: 600;
-  margin-top: 10px;
+  margin-top: 5px;
   text-decoration: none;
   border: #042444 2px solid;
   padding: 10px 30px;
@@ -1078,7 +1078,7 @@ header .nav_links ul li a:hover {
   transform: scale(1.1);
   transition: 0.3s ease-in-out;
 }
-.gallery_hero #btn a{
+.gallery_hero #btn a {
   color: #fff;
   text-decoration: none;
 }
@@ -1356,5 +1356,26 @@ footer .copyright span {
   /* Features section */
   .fea_base {
     padding: 100px 30px;
+  }
+  .gallery_hero h2 {
+    margin-top: 60px;
+    font-size: 2rem;
+  }
+  .gallery_hero h2 span {
+    font-size: 3rem;
+  }
+  .featured h2{
+    font-size: 2rem;
+  }
+  .featured h2 span{
+    font-size: 3rem;
+  }
+  .about_hero h2 span {
+    font-size: 3rem;
+  }
+  .about_hero h2 {
+    font-size: 2rem;
+   
+    margin: 30px 30px;
   }
 }
