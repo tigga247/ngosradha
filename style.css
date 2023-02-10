@@ -200,12 +200,13 @@ header .nav_links ul li a:hover {
   font-size: 2rem;
   text-shadow: 2px 2px 2px #000000, -2px -2px 2px #ffffff;
 }
-.card a {
+.card #btn {
+  display: inline-block;
   font-size: 1.1rem;
   font-weight: 600;
   margin-top: 15px;
   border: transparent;
-  padding: 10px 30px;
+  padding: 7.5px 30px;
   border-radius: 5px;
   cursor: pointer;
   transition: 250ms;
@@ -215,10 +216,14 @@ header .nav_links ul li a:hover {
   border: none;
   text-decoration: none;
 }
-.featured .card a:hover {
+.featured .card #btn:hover {
   background: #0b6fd4;
   transform: scale(1.1);
   transition: 0.3s ease-in-out;
+}
+.card #btn a{
+  text-decoration: none;
+  color: white;
 }
 .sticky {
   background: #8cccf4;
@@ -278,7 +283,7 @@ header .nav_links ul li a:hover {
   font-weight: 600;
   margin-top: 15px;
   border: #042444 2px solid;
-  padding: 12px 20px;
+  padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
   transition: 250ms;
@@ -289,7 +294,7 @@ header .nav_links ul li a:hover {
 }
 #open-popup:hover {
   background: #0b6fd4;
-  /* transform: scale(1.1); */
+  transform: scale(1.1);
   transition: 0.3s ease-in-out;
 }
 
@@ -549,7 +554,7 @@ header .nav_links ul li a:hover {
   font-size: 2.5rem;
   text-shadow: 2px 2px 2px #000000, -2px -2px 2px #ffffff;
 }
-.about_hero a {
+.about_hero #btn {
   font-size: 1.1rem;
   font-weight: 600;
   margin-top: 15px;
@@ -564,10 +569,15 @@ header .nav_links ul li a:hover {
   text-decoration: none;
   border: transparent;
 }
-.about_hero a:hover {
+.about_hero #btn:hover {
   background: #0b6fd4;
+  transform: scale(1.1);
 
   transition: 0.3s ease-in-out;
+}
+.about_hero #btn a{
+  text-decoration: none;
+  color: #fff;
 }
 
 #section_one {
@@ -707,13 +717,13 @@ header .nav_links ul li a:hover {
   margin-top: 120px;
   font-size: 2rem;
 }
-.image_text a {
+.image_text #btn {
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
   margin-top: 10px;
   border: #042444 2px solid;
-  padding: 11px 30px;
+  padding: 11.5px 30px;
   border-radius: 5px;
   border: none;
   outline: none;
@@ -722,10 +732,14 @@ header .nav_links ul li a:hover {
   background: #1cacf4;
   color: #fff;
 }
-.image_text a:hover {
+.image_text #btn:hover {
   background: #0b6fd4;
-  
+  transform: scale(1.1);
   transition: 0.3s ease-in-out;
+}
+.image_text #btn a{
+  text-decoration: none;
+  color: #fff;
 }
 /* Primery issue section */
 #idd {
@@ -839,7 +853,7 @@ header .nav_links ul li a:hover {
 .contact {
   width: 100%;
   height: 70vh;
-  background-image: url(./images/contact.jpg);
+  background-image: url(./images/intellectual.jpg);
   background-position: center;
   background-size: cover;
   color: #fff;
@@ -849,7 +863,7 @@ header .nav_links ul li a:hover {
   align-items: center;
   text-align: center;
 }
-.card_contact a {
+.card_contact #btn {
   font-size: 1.1rem;
   font-weight: 600;
   margin-top: 10px;
@@ -864,9 +878,13 @@ header .nav_links ul li a:hover {
   background: #1cacf4;
   color: #fff;
 }
-.card_contact a:hover {
+.card_contact #btn:hover {
   background:#0b6fd4;
   transition: 0.3s ease-in-out;
+}
+.card_contact #btn a{
+  color: #fff;
+  text-decoration: none;
 }
 .card_contact h2 {
   /* line-height: 1.2; */
@@ -1040,7 +1058,7 @@ header .nav_links ul li a:hover {
   color: #0b6fd4;
   text-shadow: 2px 2px 2px #000000, -2px -2px 2px #ffffff;
 }
-.gallery_hero a {
+.gallery_hero #btn{
   font-size: 1.1rem;
   font-weight: 600;
   margin-top: 10px;
@@ -1055,10 +1073,14 @@ header .nav_links ul li a:hover {
   background: #1cacf4;
   color: #fff;
 }
-.gallery_hero a:hover {
+.gallery_hero #btn:hover {
   background: #0b6fd4;
   transform: scale(1.1);
   transition: 0.3s ease-in-out;
+}
+.gallery_hero #btn a{
+  color: #fff;
+  text-decoration: none;
 }
 
 #photo_container {
