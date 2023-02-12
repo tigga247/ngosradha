@@ -685,13 +685,14 @@ header .nav_links ul li a:hover {
 /* partner section */
 .partner_img {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   grid-gap: 0.5rem;
   margin: 30px 20px;
-  align-items: center;
-  justify-content: center;
+  align-content: space-between;
+  justify-items:stretch;
   text-align: center;
   padding: 50px 50px;
+  overflow: hidden;
 }
 #partner {
   padding: 10px 10px;
