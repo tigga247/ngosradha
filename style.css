@@ -27,8 +27,9 @@ body {
 }
 header {
   display: flex;
-  justify-content: space-between;
+  /* justify-content:space-between; */
   align-items: center;
+  text-align: center;
   padding: 5px 10px;
   position: fixed;
   width: 100%;
@@ -71,14 +72,14 @@ header {
   /* font-family: "poppins", sans-serif; */
   font-size: 20px;
   font-weight: 700;
-
+position: relative;
   display: -webkit-flex;
   display: -ms-flex;
   display: -moz-flex;
   display: -o-flex;
   display: flex;
   flex-direction: row;
-  position: absolute;
+  /* position: absolute; */
   margin-top: 5px;
   margin-left: 150px;
   transform: translate(-50%, -50%);
@@ -90,6 +91,7 @@ header {
   font-family: "Dancing Script", cursive;
   font-size: 2.5rem;
   color: #04348c;
+
   /* text-transform: uppercase; */
   animation: animate 4s ease forwards infinite;
   font-weight: 900;
