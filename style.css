@@ -27,15 +27,18 @@ body {
 }
 header {
   display: flex;
-  justify-content:left;
+  justify-content:space-between;
   align-items: center;
-  /* text-align: left; */
+  text-align: left;
   padding: 5px 10px;
   position: fixed;
   width: 100%;
   top: 0;
   transition: 250ms;
   /* overflow: hidden; */
+}
+header span{
+
 }
 .nav_links {
   position: absolute;
@@ -72,7 +75,7 @@ header {
   /* font-family: "poppins", sans-serif; */
   font-size: 20px;
   font-weight: 700;
-position: relative;
+/* position: relative; */
   display: -webkit-flex;
   display: -ms-flex;
   display: -moz-flex;
@@ -160,9 +163,7 @@ header ul li a:hover{
   background-size: 100% 3px;
 }
 /* ?underline effect */
-header span{
 
-}
 header .nav_links ul li a .active,
 header .nav_links ul li a:hover {
   color: #042444;
@@ -175,7 +176,7 @@ header .nav_links ul li a:hover {
   background: url(./images/burger-advanced-svgrepo-com.png);
   height: 50px;
   width: 50px;
-    margin-left: 500px;
+   
 
   z-index: 1;
 
