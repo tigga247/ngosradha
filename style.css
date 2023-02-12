@@ -135,6 +135,8 @@ header {
 header ul li {
   list-style: none;
   margin: 20px 0px;
+  
+
 }
 header ul li a {
   text-decoration: none;
@@ -142,17 +144,20 @@ header ul li a {
   color: #fff;
   font-size: 1.5rem;
   font-weight: 700;
-  /* transition: 250ms ease-in-out; */
+  transition: 250ms ease-in-out;
   /* underline effect */
-  text-decoration: none;
-  background-image: linear-gradient(90deg rgb(0, 68, 255),blue);
+
+  background-image: linear-gradient(90deg,rgb(146, 199, 255), rgb(0, 68, 255) );
   background-size: 0% 3px;
   background-repeat: no-repeat;
   background-position: left bottom;
-  transition: background size 300ms ease-in-out;
+  transition: background-size 300ms ease;
+}
+header ul li a:hover{
+  transition: 0.3s ease-in-out;
+  background-size: 100% 3px;
 }
 /* ?underline effect */
-
 
 header .nav_links ul li a .active,
 header .nav_links ul li a:hover {
@@ -1375,10 +1380,10 @@ footer .copyright span {
   .gallery_hero h2 span {
     font-size: 3rem;
   }
-  .featured h2{
+  .featured h2 {
     font-size: 2rem;
   }
-  .featured h2 span{
+  .featured h2 span {
     font-size: 3rem;
   }
   .about_hero h2 span {
@@ -1386,7 +1391,7 @@ footer .copyright span {
   }
   .about_hero h2 {
     font-size: 2rem;
-   
+
     margin: 30px 30px;
   }
 }
