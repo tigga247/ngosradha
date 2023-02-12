@@ -27,6 +27,7 @@ body {
 }
 header {
   display: flex;
+  flex-wrap: wrap;
   justify-content:space-between;
   align-items: center;
   text-align: left;
@@ -35,11 +36,11 @@ header {
   width: 100%;
   top: 0;
   transition: 250ms;
-  /* overflow: hidden; */
-}
-header span{
 
 }
+
+
+
 .nav_links {
   position: absolute;
   right: 0;
