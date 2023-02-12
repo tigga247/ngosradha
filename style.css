@@ -27,9 +27,9 @@ body {
 }
 header {
   display: flex;
-  /* justify-content:space-between; */
+  justify-content:left;
   align-items: center;
-  text-align: center;
+  /* text-align: left; */
   padding: 5px 10px;
   position: fixed;
   width: 100%;
@@ -160,7 +160,9 @@ header ul li a:hover{
   background-size: 100% 3px;
 }
 /* ?underline effect */
+header span{
 
+}
 header .nav_links ul li a .active,
 header .nav_links ul li a:hover {
   color: #042444;
@@ -173,7 +175,10 @@ header .nav_links ul li a:hover {
   background: url(./images/burger-advanced-svgrepo-com.png);
   height: 50px;
   width: 50px;
+    margin-left: 500px;
+
   z-index: 1;
+
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
