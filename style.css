@@ -142,13 +142,24 @@ header ul li a {
   color: #fff;
   font-size: 1.5rem;
   font-weight: 700;
-  transition: 250ms ease-in-out;
+  /* transition: 250ms ease-in-out; */
+  /* underline effect */
+  text-decoration: none;
+  background-image: linear-gradient(90deg rgb(0, 68, 255),blue);
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background size 300ms ease-in-out;
 }
+/* ?underline effect */
+
+
 header .nav_links ul li a .active,
 header .nav_links ul li a:hover {
   color: #042444;
   transform: scale(1.1);
   transition: 0.3s ease-in-out;
+  background-size: 100% 3px;
 }
 
 .hamburger_on {
