@@ -76,7 +76,7 @@ header {
   /* font-family: "poppins", sans-serif; */
   font-size: 20px;
   font-weight: 700;
-/* position: relative; */
+  /* position: relative; */
   display: -webkit-flex;
   display: -ms-flex;
   display: -moz-flex;
@@ -95,12 +95,19 @@ header {
   font-family: "Dancing Script", cursive;
   font-size: 2.5rem;
   color: #04348c;
+  position:absolute;
+  
+
 
   /* text-transform: uppercase; */
   animation: animate 4s ease forwards infinite;
   font-weight: 900;
   font-style: oblique;
   /* 3d text */
+}
+.logo img{
+  height: 70px;
+  width: 70px;
 }
 .logo span:nth-child(1) {
   animation-delay: 0.1s;
