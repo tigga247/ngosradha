@@ -1354,7 +1354,7 @@ footer .copyright span {
   }
   header ul li a.active,
   header ul li a:hover {
-    color: #042444;
+    color: #0b6fd4;
     transform: scale(1.1);
     transition: 0.3s ease-in-out;
   }
